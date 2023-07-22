@@ -13,9 +13,8 @@ Step 4: To unlock fps, you can choose option 1, when you don't want to unlock fp
 Step 5: Rejoin the game to apply
 ```
 Have any questions or need support, you can contact me through:
-------------------------------------------
-[ EMAIL: getatizcof@gmail.com            ]
-[ DISCORD: geta1005 | 486888114472747040 ]
-[ GITHUB: https://github.com/geta1005    ]
-[ WEBSITE: https://geta.000.pe           ]
-------------------------------------------
+
+- [ EMAIL: getatizcof@gmail.com            ]
+- [ DISCORD: geta1005 | 486888114472747040 ]
+- [ GITHUB: https://github.com/geta1005    ]
+- [ WEBSITE: https://geta.000.pe           ]
