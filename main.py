@@ -35,7 +35,6 @@ def checkRobloxTab():
 pathtoroblox = replace(os.environ["ProgramFiles(x86)"],'\\','/')+"/Roblox"
 robloxfolder = None
 username = getuser()
-startup = 
 
 while True:
     try:
