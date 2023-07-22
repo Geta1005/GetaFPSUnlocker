@@ -3,7 +3,6 @@ import json
 import pygetwindow as gw
 import time
 import random
-from getpass import getuser
 
 def json_write(filename, data):
     with open(filename, 'w') as file:
@@ -34,7 +33,6 @@ def checkRobloxTab():
     
 pathtoroblox = replace(os.environ["ProgramFiles(x86)"],'\\','/')+"/Roblox"
 robloxfolder = None
-username = getuser()
 
 while True:
     try:
