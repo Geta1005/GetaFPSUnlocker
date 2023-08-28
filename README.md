@@ -1,8 +1,8 @@
 # GetaFPSUnlocker
-- Support roblox latest version
+- Support Roblox latest version
 - This is not a virus, just a mistake of anti-virus applications
 - GetaFPSUnlocker uses flags file method to unlock fps, this method will not unlock fps while the game is running
-- Versions 0.0.1 and 0.0.2 are test versions so will not be included in the release
+- Versions 0.0.1 and 0.0.2 are test versions so will not be included in Releases
 
 HowToUse:
 ```
