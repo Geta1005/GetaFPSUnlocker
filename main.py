@@ -75,7 +75,7 @@ startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Sta
 destination_path = os.path.join(startup_folder, os.path.basename(source_path))
 version_url = 'https://raw.githubusercontent.com/Geta1005/GetaFPSUnlocker/main/version.txt'
 versions = {
-    'current': '0.0.7',
+    'current': '0.0.8',
     'latest': ''
 }
 robloxfolder = None
@@ -123,8 +123,9 @@ if str(os.name) == "nt":
    \ \_______\ \_______\  \ \__\ \ \__\ \__\ 
     \|_______|\|_______|   \|__|  \|__|\|__|
 
-                    < geta1005 >
-            < GetaFPSUnlocker v{versions['current']} >
+MADE BY: geta1005
+VERSION: {versions['current']}
+GITHUB: https://github.com/Geta1005/GetaFPSUnlocker
                         """
                         print(credit)
                         print('---------------------------------------------\n> [Path] DebugLog: '+replace(debugpath,'/','\\'))
