@@ -75,7 +75,7 @@ startup_folder = os.path.join(os.getenv('APPDATA'), 'Microsoft', 'Windows', 'Sta
 destination_path = os.path.join(startup_folder, os.path.basename(source_path))
 version_url = 'https://raw.githubusercontent.com/Geta1005/GetaFPSUnlocker/main/version.txt'
 versions = {
-    'current': '0.0.8',
+    'current': '0.0.9',
     'latest': ''
 }
 robloxfolder = None
@@ -115,14 +115,11 @@ if str(os.name) == "nt":
                     try:
                         os.system('cls')
                         credit = f"""
- _______  _______   __________  ______  
-|\   ____\|\  ___ \|\___   ___\\\\   __  \\
-\ \  \___|\ \   __/\|___ \  \_\ \  \|\  \ 
- \ \  \  __\ \  \_|/__  \ \  \ \ \   __  \   
-  \ \  \|\  \ \  \_|\ \  \ \  \ \ \  \ \  \ 
-   \ \_______\ \_______\  \ \__\ \ \__\ \__\ 
-    \|_______|\|_______|   \|__|  \|__|\|__|
-
+  __________________     _______  ____  __  ___  ____   ____  _______ _________ 
+ / ___/ __/_  __/ _ |   / __/ _ \/ __/ / / / / |/ / /  / __ \/ ___/ //_/ __/ _ \\
+/ (_ / _/  / / / __ |  / _// ___/\ \  / /_/ /    / /__/ /_/ / /__/ ,< / _// , _/
+\___/___/ /_/ /_/ |_| /_/ /_/  /___/  \____/_/|_/____/\____/\___/_/|_/___/_/|_|                                                        
+                                                                            
 MADE BY: geta1005
 VERSION: {versions['current']}
 GITHUB: https://github.com/Geta1005/GetaFPSUnlocker
@@ -179,10 +176,10 @@ GITHUB: https://github.com/Geta1005/GetaFPSUnlocker
                             if fpscap:
                                 print('> [-] Checking...')
                                 pathtoroblox = None
-                                if isExist(pathrobloxcheck[0]):
-                                    pathtoroblox = pathrobloxcheck[0]
-                                elif isExist(pathrobloxcheck[1]):
+                                if isExist(pathrobloxcheck[1]):
                                     pathtoroblox = pathrobloxcheck[1]
+                                elif isExist(pathrobloxcheck[0]):
+                                    pathtoroblox = pathrobloxcheck[0]
                                 else:
                                     print("> [*] Unfound Roblox folder.")
                                 if pathtoroblox:
@@ -193,6 +190,7 @@ GITHUB: https://github.com/Geta1005/GetaFPSUnlocker
                                                 if isExist(pathtoversions+'/'+str(i)+'/'+'RobloxPlayerBeta.exe'):
                                                     robloxfolder = pathtoversions+'/'+str(i)
                                             if robloxfolder:
+                                                print(robloxfolder)
                                                 clientpath = robloxfolder+'/'+'ClientSettings'
                                                 jsonpath = clientpath+'/'+'ClientAppSettings.json'
                                                 if not isExist(clientpath):
